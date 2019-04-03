@@ -8,8 +8,11 @@ SI507_project4.py is an application that utilizes Pyglet, a multimedia library f
 ## Controls & Gameplay
 
 **W** Move Paddle Up
+
 **S** Move Paddle Down
+
 **P** Pause/Unpause
+
 **Q or Escape** Quit
 
 **Gameplay** Users move the paddle to bounce the ball toward all faceheads. Destroy all the faceheads to win the game. If your paddle misses the ball, the game will reset and you will need to press the P Pause button to start again.
@@ -46,6 +49,7 @@ Pyglet can be installed by running the command:
 > $ pip install pyglet
 
 Further information can be found at https://bitbucket.org/pyglet/pyglet/wiki/Home
+
 ---
 ## Requirements.txt / Dependencies
 
