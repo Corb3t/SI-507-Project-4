@@ -1,8 +1,9 @@
 # README.MD - SI 507 Project 4
 ### Description: Learning Pyglet with a Breakout Game
 ### Python Version: Python3
+---
 
-[[http://corbetgriffith.com/img/BreakFace.gif|alt=BreakFace]]
+![BreakFace](http://corbetgriffith.com/img/BreakFace.gif)
 
 ---
 ## Description
