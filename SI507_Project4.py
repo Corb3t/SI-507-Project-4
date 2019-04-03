@@ -395,9 +395,6 @@ class GameWindow(pyglet.window.Window):
         if symbol == pyglet.window.key.Q or symbol == pyglet.window.key.ESCAPE:
             debug_print('Exit key detected. Exiting game...')
             pyglet.app.exit()
-        elif symbol == pyglet.window.key.R:
-            debug_print('Resetting...')
-            self.game.reset()
         elif symbol == pyglet.window.key.P:
             if not self.paused:
                 self.pause()
