@@ -1,6 +1,9 @@
 # README.MD - SI 507 Project 4
 ### Description: Learning Pyglet with a Breakout Game
 ### Python Version: Python3
+
+[[http://corbetgriffith.com/img/BreakFace.gif|alt=BreakFace]]
+
 ---
 ## Description
 SI507_project4.py is an application that utilizes Pyglet, a multimedia library for Python that lets users create games and other applications using media files like .png, .jpg, and .gif, along with sound and video files.
