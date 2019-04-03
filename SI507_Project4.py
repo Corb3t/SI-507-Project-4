@@ -84,7 +84,7 @@ class Brick(BallDeflector):
         super(Brick, self).deflect_ball(ball, side_hit)
         self.game.game_objects.remove(self)
         self.game.increment_hit_count()
-        print("hit a brick and the total hit is: " + str(self.game.hit_count))
+        print("Bricks Hit/Score: " + str(self.game.hit_count))
         self.game.record_score()
 
 class EndLine(BallDeflector):
@@ -335,7 +335,7 @@ class Game(object):
             debug_print('Pausing. Hit P to unpause')
             self.game_window.pause()
 
-    def record_score(self):
+    def record_score(self): #Maintain score or end game once all blocks are cleared
         self.score += 1
         if self.score < 77:
             self.game_window.score_label.text = 'Score: ' + str(self.score)
@@ -354,7 +354,7 @@ class Game(object):
         if self.hit_count % 10 == 0:
             print("speeding up")
             for ball in self.balls:
-                ball.velocity += 5
+                ball.velocity += 2
 
 class GameWindow(pyglet.window.Window):
 
